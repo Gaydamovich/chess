@@ -1,0 +1,17 @@
+.player_info {
+    font-size: 38px;
+}
+
+.player_info > span {
+    color: orangered;
+}
+
+.board {
+    box-sizing: content-box;
+    border: 32px solid #262626;
+    width: calc(64px * 8);
+    height: calc(64px * 8);
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}

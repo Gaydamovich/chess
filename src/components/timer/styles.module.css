@@ -1,0 +1,36 @@
+.timer {
+    padding: 1em;
+    border: 1px solid #262626;
+    border-radius: 8px;
+    margin-right: 36px;
+    font-size: 40px;
+    background-color: #fff;
+}
+
+.timer div {
+    width: 200px;
+}
+
+.timer > div:last-child {
+    margin-top: 8px;
+}
+
+.timer span {
+    color: orangered;
+}
+
+.drop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: #62e9ff;
+    color: black;
+    transition: all ease-in-out.3s;
+}
+
+.drop:hover {
+    background-color: #17ddff;
+}

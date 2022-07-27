@@ -1,0 +1,36 @@
+.cell {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.logo {
+    width: 45px;
+}
+
+.white {
+    background-color: #eee2d4;
+}
+
+.black {
+    background-color: #574e4e;
+}
+
+.selected[class] {
+    background-color: red;
+}
+
+.available {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background-color: #4bfff9;
+}
+
+.available_figure {
+    background-color: #5ee9ff;
+}

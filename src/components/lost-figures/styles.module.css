@@ -1,0 +1,23 @@
+.figures {
+    padding: 16px 48px;
+    margin-left: 36px;
+    background-color: #e3e3e3;
+    height: 50vh;
+    min-width: 200px;
+}
+
+.figures h2 {
+    font-size: 40px;
+    text-decoration: underline;
+    color: #574e4e;
+}
+
+.figure {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+.figure > img {
+    margin-left: 10px;
+}
