@@ -14,7 +14,7 @@ export class Bishop extends Figure {
 
   canMove(target: Cell): boolean {
     if (super.canMove(target)) {
-      return this.cell.isEmptyDiagonal(target);
+      return this.cell.isEmptyDiagonal(target)
     }
     return false
   }

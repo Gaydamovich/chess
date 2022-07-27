@@ -5,7 +5,7 @@ import { Figure, FigureNames } from '../../models/figures/Figure'
 import styles from './styles.module.css'
 
 interface IProps {
-  title: string;
+  title: string
   figures: Figure[]
 }
 
