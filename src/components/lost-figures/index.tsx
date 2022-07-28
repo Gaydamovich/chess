@@ -1,4 +1,4 @@
-import React, { FC, useMemo } from 'react'
+import React, { FC } from 'react'
 
 import { Figure, FigureNames } from '../../models/figures/Figure'
 
@@ -12,12 +12,12 @@ interface IProps {
 type MapFigures = Record<FigureNames, Figure[]>
 
 export const LostFigures: FC<IProps> = ({ title, figures }) => {
-  const mapFigures = useMemo(() => figures.reduce<MapFigures>((acc, figure) => {
+  const mapFigures = figures.reduce<MapFigures>((acc, figure) => {
     return {
       ...acc,
       [figure.name]: acc[figure.name] ? [ ...acc[figure.name], figure] : [figure],
     }
-  }, {} as MapFigures), [figures])
+  }, {} as MapFigures)
 
   return (
     <div className={styles.figures}>
